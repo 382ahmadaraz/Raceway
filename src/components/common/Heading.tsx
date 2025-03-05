@@ -1,7 +1,9 @@
+import { JSX } from "react";
+
 interface HeadingProps {
-  text?: string;
-  level?: 1 | 2 | 3 | 4 | 5 | 6;
-  customHeadingStyle: string;
+  text: string;
+  level: 1 | 2 | 3 | 4 | 5 | 6;
+  customHeadingStyle?: string;
 }
 
 const Heading: React.FC<HeadingProps> = ({
@@ -12,7 +14,7 @@ const Heading: React.FC<HeadingProps> = ({
   const Tag = `h${level}` as keyof JSX.IntrinsicElements;
   return (
     <Tag
-      className={`text-xl font-bold text-start text-white ${customHeadingStyle}`}
+      className={`text-lg font-bold text-start text-white ${customHeadingStyle}`}
     >
       {text}
     </Tag>

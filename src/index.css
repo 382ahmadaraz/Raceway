@@ -1,2 +1,7 @@
 @import "tailwindcss";
-  
+
+@layer base {
+  .arw-container {
+    @apply p-4 2xl:container 2xl:mx-auto;
+  }
+}

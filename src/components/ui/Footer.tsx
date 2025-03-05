@@ -44,7 +44,7 @@ const Media = [
 const Footer = () => {
   return (
     <footer>
-      <div className="container mx-auto p-4 sm:px-8 xl:px-20 2xl:px-40 lg:flex">
+      <div className="arw-container lg:flex">
         <div className="lg:w-2/5">
           <div className="Logo_Content text-[#ffffff]">
             <img

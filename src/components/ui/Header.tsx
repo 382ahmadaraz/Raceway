@@ -18,7 +18,7 @@ const Header = () => {
   };
 
   return (
-    <header className="container mx-auto p-4 sm:px-8 xl:px-20 2xl:px-40">
+    <header className="arw-container">
       <nav className="flex justify-between items-center">
         <Link to={"/"}>
           <img
@@ -44,17 +44,22 @@ const Header = () => {
               </li>
             ))}
           </ul>
-          <Button
-            type="button"
-            customButtonStyle="h-8 px-4 text-sm font-semibold flex items-center gap-x-[10px] text-white rounded-[4px] bg-[#FD0000] hover:bg-[#FD0000] transition duration-300 ease-in-out"
-          >
-            <img
-              src={"/favicon/avatar.svg"}
-              alt="Register_Logo"
-              className="button-icon inline-flex"
+          <div className="flex">
+            <Button
+              type="button"
+              text={
+                <div className="flex items-center gap-x-[10px]">
+                  <img
+                    src={"/favicon/avatar.svg"}
+                    alt="Register_Logo"
+                    className="w-4 h-4"
+                  />
+                  REGISTER HERE
+                </div>
+              }
+              customButtonStyle="h-8 px-4 text-sm font-semibold flex items-center gap-x-[10px] text-white rounded-[4px] bg-[#FD0000] hover:bg-[#FD0000] transition duration-300 ease-in-out"
             />
-            REGISTER HERE
-          </Button>
+          </div>
         </div>
         <div className="lg:hidden">
           <button

@@ -1,8 +1,7 @@
 interface ButtonProps {
-  text?: string;
+  text: string;
   type: "button" | "submit" | "reset";
   onClick?: () => void;
-  children?: React.ReactNode;
   customButtonStyle?: string;
 }
 
@@ -10,7 +9,6 @@ const Button: React.FC<ButtonProps> = ({
   type,
   text,
   onClick,
-  children,
   customButtonStyle,
 }) => {
   return (
@@ -20,7 +18,6 @@ const Button: React.FC<ButtonProps> = ({
       className={`text-base font-medium text-center text-white bg-[#FD0000] ${customButtonStyle}`}
     >
       {text}
-      {children}
     </button>
   );
 };
