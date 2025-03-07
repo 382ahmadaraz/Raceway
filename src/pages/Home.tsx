@@ -1,4 +1,4 @@
-import Header from "../components/home/Header";
+import Head from "../components/home/Head";
 import Main from "../components/home/Main";
 import LiveButton from "../components/home/LiveButton";
 import Calender from "../components/common/Banner";
@@ -8,9 +8,9 @@ import CardHome from "../components/home/Card";
 export default function Home() {
   return (
     <>
-      <Header />
+      <Head />
       <Main />
-      <LiveButton />  
+      <LiveButton />
       <Calender />
       <CardHome />
       <Partners />

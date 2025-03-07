@@ -23,7 +23,7 @@ const Header = () => {
         <Link to={"/"}>
           <img
             className="w-[130px] max-w-[130px]"
-            src={"/image/logo.png"}
+            src={"/favicon/logo.svg"}
             alt="Header_Logo"
           />
         </Link>

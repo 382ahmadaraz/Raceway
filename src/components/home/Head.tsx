@@ -1,6 +1,5 @@
 import Counter from "./Counter";
-
-const Header = () => {
+const Head = () => {
   return (
     <div
       className="min-w-full min-h-52 bg-center bg-cover bg-[#000000CC]"
@@ -31,4 +30,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Head;

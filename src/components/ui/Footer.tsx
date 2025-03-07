@@ -47,7 +47,7 @@ const Footer = () => (
         <div className="Logo_Content text-[#ffffff]">
           <img
             className="w-[130px] max-w-[130px]"
-            src="/image/logo.png"
+            src={"/favicon/logo.svg"}
             alt="Footer Logo"
           />
           <p className="text-sm font-medium text-justify py-4">
