@@ -9,12 +9,12 @@ const Partners = () => {
       </div>
       <div className="flex flex-wrap justify-center items-center gap-8 sm:gap-8 xl:gap-16">
         {[
-          "/image/partner.png",
-          "/image/partner.png",
-          "/image/partner.png",
-          "/image/partner.png",
-          "/image/partner.png",
-          "/image/partner.png",
+          "/favicon/partner1.svg",
+          "/favicon/partner2.svg",
+          "/favicon/partner3.svg",
+          "/favicon/partner4.svg",
+          "/favicon/partner5.svg",
+          "/favicon/partner6.svg",
         ].map((Path, index) => {
           return (
             <img

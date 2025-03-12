@@ -1,5 +1,6 @@
-import Counter from "./Counter";
-const Head = () => {
+import CountdownTimer from "./CountdownTimer";
+
+const Countdown = () => {
   return (
     <div
       className="min-w-full min-h-52 bg-center bg-cover bg-[#000000CC]"
@@ -24,10 +25,10 @@ const Head = () => {
             </p>
           </div>
         </div>
-        <Counter />
+        <CountdownTimer />
       </div>
     </div>
   );
 };
 
-export default Head;
+export default Countdown;

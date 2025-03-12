@@ -1,18 +1,18 @@
-import Head from "../components/home/Head";
 import Main from "../components/home/Main";
 import LiveButton from "../components/home/LiveButton";
 import Calender from "../components/common/Banner";
 import Partners from "../components/home/Partners";
-import CardHome from "../components/home/Card";
+import Countdown from "../components/home/Countdown";
+import SwiperCard from "../components/home/Swiper";
 
 export default function Home() {
   return (
     <>
-      <Head />
+      <Countdown />
       <Main />
       <LiveButton />
       <Calender />
-      <CardHome />
+      <SwiperCard />
       <Partners />
     </>
   );

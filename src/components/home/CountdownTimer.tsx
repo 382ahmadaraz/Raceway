@@ -1,4 +1,4 @@
-const Counter = () => {
+const CountdownTimer = () => {
   return (
     <div className="flex justify-center items-center gap-2 flex-wrap md:w-[20%] lg:w-[35%] xl:w-[27%]">
       <div className="w-[62px] h-[68px] flex flex-col justify-center items-center bg-[#FE0000] text-center">
@@ -29,4 +29,4 @@ const Counter = () => {
   );
 };
 
-export default Counter;
+export default CountdownTimer;
