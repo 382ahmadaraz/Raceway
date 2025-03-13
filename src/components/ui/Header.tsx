@@ -5,7 +5,7 @@ import Button from "../common/Button";
 const Header = () => {
   const NavLinks = [
     { NavTxt: "Home", Path: "/" },
-    { NavTxt: "Race Calendar", Path: "/race-calender" },
+    { NavTxt: "Race Calendar", Path: "/race-calendar" },
     { NavTxt: "Results", Path: "/download-results" },
     { NavTxt: "Downloads", Path: "/download" },
     { NavTxt: "Driver Profile", Path: "/driver-profile" },
