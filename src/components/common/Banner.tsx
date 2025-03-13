@@ -25,7 +25,6 @@ const Banner: React.FC<BannerProps> = ({
       style={{
         backgroundImage: showBackground ? "url(/image/bgCalender.png)" : "none",
       }}
-      aria-label="Banner Section"
     >
       <div className="arw-container flex flex-col lg:flex-row lg:justify-between gap-4 py-4 lg:py-11 items-center">
         <div>
@@ -74,9 +73,7 @@ const Banner: React.FC<BannerProps> = ({
             />
           </div>
         )}
-        {showBorder && (
-          <div className="w-full border border-red-500" aria-hidden="true"></div>
-        )}
+        {showBorder && <div className="border-primary-red"></div>}
       </div>
     </section>
   );

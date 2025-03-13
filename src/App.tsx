@@ -4,7 +4,9 @@ import Home from "./pages/Home";
 import RaceCalendar from "./pages/RaceCalendar";
 import DriverProfile from "./pages/DriverProfile";
 import Downloads from "./pages/Downloads";
+import Media from "./pages/Media";
 import Footer from "./components/ui/Footer";
+import About from "./pages/About";
 
 export default function App() {
   return (
@@ -16,6 +18,8 @@ export default function App() {
           <Route path="/race-calendar" element={<RaceCalendar />} />
           <Route path="/driver-profile" element={<DriverProfile />} />
           <Route path="/download" element={<Downloads />} />
+          <Route path="/media" element={<Media />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
       </div>

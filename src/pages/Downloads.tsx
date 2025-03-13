@@ -4,7 +4,7 @@ import DownloadCard from "../components/downloads/DownloadCard";
 export default function Downloads() {
   return (
     <>
-      <Banner text="Downloads" showBackground={true} showBorder={true} />
+      <Banner text={"Downloads"} showBackground={true} showBorder={true} />
       <div
         className="w-full h-full bg-cover bg-center bg-no-repeat"
         style={{
@@ -13,8 +13,8 @@ export default function Downloads() {
         }}
       >
         <div className="arw-container grid grid-rows-3 gap-[30px]">
-          {[1, 2, 3].map((item, i) => {
-            return <DownloadCard />;
+          {[1, 2, 3, 4].map((item, i) => {
+            return <DownloadCard />
           })}
         </div>
       </div>
