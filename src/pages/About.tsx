@@ -12,7 +12,7 @@ export default function About() {
             "linear-gradient(#000000CC, #000000CC), url(/image/background1.png)",
         }}
       >
-        <div className="flex justify-center pt-[27px]">
+        <div className="arw-container">
           <div className="bg-black w-[986px] h-[931px] rounded-[10px] flex py-[31px] px-[26px]">
             <SlideBar />
             <div>

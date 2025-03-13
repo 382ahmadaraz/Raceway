@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const footerLinks = [
-  { label: "About", url: "/mission" },
+  { label: "About", url: "/about" },
   { label: "Mission & Vision", url: "/mission" },
   { label: "FAQs", url: "/faq" },
   { label: "Terms & Conditions", url: "/term" },
